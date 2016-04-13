@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--grupo CSS -->
+<link rel="stylesheet" href="css/temapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Celebración de la Semana Santa </h1>
+    </div>
+    <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+           <h1> En que Consiste la Semana Santa </h1>
+           <div>
+           <p>La Semana Santa es la conmemoración anual cristiana de la Pasión, Muerte y Resurrección de Jesús de Nazaret. La fecha de la celebración es variable (entre marzo y abril según el año) ya que depende del calendario lunar. </p>
+          <p>Durante la Semana Santa tienen lugar numerosas muestras de religiosidad popular a lo largo de todo el mundo, destacando las procesiones y las representaciones de la Pasión.</p>
+           <br>
+           </div>
+         <div>
+            <img src="imagenes/Semana-Santa-Nazareno.jpg" width="70%" height="50%"> </div>
+          </div>
+          </div>
+          
+     <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+           <h1> Dias de Celebración</h1>
+           <div>
+           <h2> Jueves Santo </h2>
+           <p> El Jueves Santo se realiza Lavatorio de los pies, La Última Cena, Eucaristía, Oración de Jesús en el huerto de Getsemaní y Arresto de Jesús</p>
+           <br>
+           </div>
+         <div>
+            <img src="imagenes/sabadosanto.jpg" width="90%" height="50%"> </div>
+           <div>
+           <h2> Viernes Santo </h2>
+           <p> El Viernes Santo es la Prisión de Jesús, Los interrogatorios de Caifàs y Pilato, La flagelación, La coronación de espinas, Vía Crucis, Crucifixión de Jesús y Sepultura de Jesús. </p>
+           <br>
+           </div>
+          <div>
+           <img src="imagenes/viernesanto.jpg" width="50%" height="50%"> </div>
+          <div>
+           <h2> Sabado Santo</h2>
+           <p> El Sabado Santo se lleva acabo la Vigilia Pascual. </p>
+           <br>
+           </div>
+           <div>
+            <img src="imagenes/jesussepulcro.jpg" width="50%" height="50%"> </div>
+           <div>
+           <h2> Domingo de Resurección </h2>
+           <p> Cristo triunfó sobre la muerte y con esto nos abrió las puertas del Cielo.</p>
+           <br>
+           </div>
+           <div>
+            <img src="imagenes/resurreccion-de-jesus1.jpg" width="70%" height="50%"> </div>
+           </div>
+        </div>
+        
+     <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Como la Celebran Otras Religiones</h1>
+         <div>
+          <h2> Testigos de Jehová </h2>
+          <p> Los Testigos de Jehová consideran que la Semana Mayor es una fecha común; ellos celebran anualmente la muerte de Jesús, pero lo hacen según el calendario arameo. En la dicha reunión comparten vino y pan, tal como lo hizo el Señor en la última cena.
+“Nosotros celebramos la muerte de Jesús con una cena, cada año la fecha puede variar dependiendo del calendario arameo".</p>
+           <br>
+           </div>
+         <div>
+            <img src="imagenes/celebraciontestigos.jpg" width="60%" height="40%"> </div>
+        <div>
+         <h2>Cristianos</h2>
+         <p>Para los cristianos, todos los días son de adoración a Jesús y por lo tanto no existe una semana especial para recordarlo. </p>
+         <br>
+        </div>
+        <div>
+         <img src="imagenes/cristianismo.jpg" width="60%" height="40%"> </div>
+       </div>
+      </div>
+      
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> Semana Santa en mi Comunidad </h2>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Semana Santa en Tlaxcala </h2>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Semana Santa en Iztapalapa</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Semana Santa en Oaxaca </h2>
+         </a>
+    </li>
+  </ul>
+</div>
+
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+      <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+   <div>
+      <h4> Aplicacion Dos</h4>
+      <h4> María Fernanda Salazar Sánchez </h4>
+   </div>
+ </div>
+</div>
+
+<div data-role="content" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Semana Santa en mi Comunidad </h1>
+     </div>
+    <div data-role="content" align="center">
+     <div>
+        <p> En atlixco la Semana Santa se celebra principalmente con la procesión de los Engrillados que se celebra cada Viernes Santo en medio de una gran expectación. </p>
+         <br>
+         <img src="imagenes/Engrillados.jpg" width="60%" height="50%">
+          <br>
+         <p>Las Principales calles de Atlixco, se cubren con alfombras decorativas elaboradas con aserrín de colores en un recorrido de cinco kilometros que comienzae en el Exconvento de San Francisco.</p>
+          <br>
+          <img src="imagenes/acerrin.jpg" widht="50%" height="50%">
+          <br>
+        <p>Támbien se coloca un tapete elaborado con flores, el cual permanece durante todos los festejos de semana santa </p>
+          <br>
+          <img src="imagenes/tapete.jpg" width="50%" height="40%">
+          <br>
+          <p>La procesión del silencio se ha llevado acabo desde hace 20 años, es una de las más grandes tradiciones de atlixco. El recorrido que iniciará en la junta auxiliar de Santa Lucia de Cosamalopan y culminará en la comunidad de Nexatengo, Tendrá una duración de aproximadamente 3 horas.</p>
+          <br>
+          <img src="imagenes/Procesion.jpg" width="50%" height="50%">
+          <br>
+          <p> Se realiza la visita de los 7 altares, que consta de visistar 7 diferentes iglesias del municipio en la que se encuentran una representación con imagenes de la vida de Cristo. </p>
+          <br>
+          <img src="imagenes/IMG_20160324_220207.jpg" width="50%" height="90%">
+    </div>
+   </div>
+    <div data-role="footer" data-theme="a">
+      <h4>María Fernanda Salazar Sáchez</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Semana Santa en Tlaxcala </h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <p> El Jueves Santo por la tarde se celebra la cena del Señor, en la que se recuerda la institución de la eucaristía y del sacerdocio. En esta celebración también se tiene en cuenta el lavatorio de los pies y el mandamiento del amor </p>
+     <br>
+     <img src="imagenes/18 DE ABRIL 02 (C).JPG" width="70%" height="60%">
+     <br>
+     <p> En algunos lugares, en este día jueves, se tiene la tradición de hacer las visitas de las siete casas o siete iglesias, como recuerdo del proceso legal que tuvo Jesús por las diferentes casas de las autoridades judías y romanas. En estas visitas se medita y se hace oración.</p>
+     <br>
+     <img src="imagenes/visita.jpg" width="40%" height="40%">
+     <br>
+     <p> Por la tarde se celebra la pasión del Señor, que tiene tres momentos: liturgia de la palabra, adoración de la cruz y comunión eucarística. Por la noche, en algunos lugares, se tiene la devoción de rezar el rosario del pésame y la procesión del silencio. </p>
+     <br>
+     <img src="imagenes/tlaxpro.jpg" width="50%" height="50%">
+     <br>
+     <p>La vigilia pascual se inicia en la medianoche del sábado, para terminar por la madruga del día domingo. La vigilia pascual tiene cuatro partes: liturgia de la luz, liturgia de la palabra, liturgia bautismal y liturgia eucarística. </p>
+     <br>
+     <img src="imagenes/liturgia.jpg" width="50%" height="50%">
+     <br>
+     </div>
+    </div>
+    <div data-role="footer" data-theme="a">
+       <h4>María Fernanda Salazar Sánchez </h4>
+    </div>
+   </div>
+  </div>
+  
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Semana Santa en Iztapalapa </h1>
+   </div>
+   <div data-role="content" align="center"
+     <div>
+        <p>Los Festejos de Semana Santa de Iztapalapa son Patrimonio Cultural Intangible de la Ciudad de México. Desde hace 172 años, millones de mexicanos y turistas extranjeros han rememorado en el Cerro de la Estrella de Iztapalapa, la pasión de Cristo, la historia de cómo el hijo de Dios sufrió por el perdón de los pecados de la humanidad. </p>
+        <br>
+        <img src="imagenes/Izta1.jpeg" width="60%" height="50%">
+        <br>
+        <p>Desde 1843 en el Cerro de la Estrella o Huizachtepetl se conmemora la Pasión de Cristo. Diez años atrás, en 1833, los pobladores afectados y preocupados por la epidemia que azolaba a su comunidad, invocaron las imágenes de Cristo que se  veneraban en sus respectivas ermitas de los barrios originales de Iztapalapa para que terminara la ola de muerte que se cernía entre sus familiares. </p>
+        <br>
+        <img src="imagenes/cerro.jpg" width="50%" height="50%">
+        <br>
+        <p>Como muestra de su agradecimiento a Cristo por haber escuchado sus ruegos, los habitantes de esa región iniciaron la representación del Vía Crucis, que hasta nuestros días ha recorrido tres siglos, de 1843-2013. Desde entonces, cada año, niños, jóvenes, adultos y ancianos de ocho barrios de Iztapalapa: San Lucas, Santa Bárbara, San Ignacio, San Pablo, San José, San Pedro, La Asunción y San Miguel salen a las calles a representar la Semana Santa.</p>
+        <br>
+        <img src="imagenes/izta2.jpg" width="60%" height="50%">
+        <br>
+     </div>
+   <div data-role="footer" data-theme="a">
+        <h4>María Fernanda Salazar Sánchez </h4>
+   </div>
+  </div>
+ </div>
+ 
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Semana Santa en Oaxaca</h1>
+     </div>
+     <div data-role="content" align="center">
+        <div>
+           <p> En el templo de Tepeaca, en perímetro de los Barrios de Jalatlaco y Xochimilco, y desde tiempo inmemorial, los devotos solían reunirse cada Viernes de Cuaresma, para practicar el Via Crucis, ceremonia que tenía lugar muy de mañana, para contar con una mayor asistencia de los vecinos trabajadores que en dicho barrio se han dedicado al oficio de la curtiduría. </p>
+           <br>
+           <img src="imagenes/img_2258.jpg" width="50%" height="50%">
+           <br>
+           <p> El Sexto Viernes de Cuaresma, el Viernes de Dolores es una tradición de gran devoción y un objeto de veneración especial en la Ciudad de Oaxaca. Se rinde culto a la Madre de Dios, colocando un Altar en el mejor lugar de las iglesias, casas u oficinas</p>
+           <br>
+           <img src="imagenes/02.jpg" width="50%" height="50%">
+           <br>
+           <p> La Procesión del Silencio lleva un orden programado: primero la cruz y los ciriales que preceden a toda procesión; después los estandartes bordados en plata o en oro, portando Relicarios con antigüedad que los convierte en piezas de museo, siguiendo las damas de la Tercera Orden de Santo Domingo, acompañando al Señor de la Columna, hermosísima talla del siglo XVII que se venera precisamente en este Templo.</p>
+           <br>
+           <img src="imagenes/procesionsilencio2.jpg" width="50%" height="50%">
+           <br>
+         </div>
+      </div>
+<div data-role="footer" data-theme="a">
+   <h4>María Fernanda Salazar Sánchez </h4>
+   </div>
+  </div>
+ </div>
+  </div>
+</div>
+</body>
+</html>
